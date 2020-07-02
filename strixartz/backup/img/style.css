@@ -1,0 +1,72 @@
+body{
+	font:15px/1.5 Arial, sans-serif;
+	padding: 0;
+	margin: 0;
+	background-color: #f4f4f4;
+}
+
+/*GENERAL*/
+
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+/*HEADER*/
+
+header{
+	background: #1f1f1f;
+	color: #fff;
+	padding-top: 30px;
+	padding-bottom: 30px; 
+	min-height: 70px;
+	border-bottom: #0f52BA 3px solid;
+}
+
+header a{
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 24px;
+}
+
+header li{
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+
+header #logo{
+	float: left;
+}
+
+header #logo h1{
+	margin: 0;
+}
+
+header nav {
+	float: right;
+	margin-top: 30px;
+}
+
+header .current a{
+	color:#0f52BA;
+	font-weight: bold; 
+}
+
+header a:hover{
+	color: #999;
+	font-weight: bold
+}
+
+/*SHOWCASE*/
+#showcase{
+	min-height: 400px;
+	background-image: url(/img/shocase.jpg) no-repeat;
+}
